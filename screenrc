@@ -1,6 +1,9 @@
+# no flash
 vbell off
+# no start up page
 startup_message off
+# set scroll back to 1000
 defscrollback 1000
-hardstatus             alwayslastline
+# server, screens, line,row  date, time
+hardstatus             alwayslastline                                                                                                                          
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
-
